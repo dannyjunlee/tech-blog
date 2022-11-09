@@ -1,0 +1,15 @@
+:root {
+    --dark-bg: rgb(22, 8, 8);
+    --mint: rgb(122, 206, 122); 
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: var(--mint);
+}
+
+.nav-bar {
+    background-color: var(--dark-bg);
+}

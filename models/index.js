@@ -1,12 +1,12 @@
 const User = require('./User');
-const Note = require('./Note');
+const Post = require('./Post');
 
-User.hasMany(Note, {
+User.hasMany(Post, {
     foreignKey: 'user_id',
 });
 
-Note.belongsTo(User, {
+Post.belongsTo(User, {
     foreignKey: 'user_id',
 })
 
-module.exports = { User, Note };
+module.exports = { User, Post };
